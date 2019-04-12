@@ -1,0 +1,73 @@
+{
+  "extends": [
+    "tslint-eslint-rules",
+    "tslint:recommended"
+  ],
+  "rulesDirectory": [
+    "node_modules/tslint-jasmine-rules/dist"
+  ],
+  "rules": {
+    "brace-style": [
+      true,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "no-use-before-declare": true,
+    "no-arg": true,
+    "no-conditional-assignment": true,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "no-shadowed-variable": false,
+    "variable-name": false,
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "no-extra-semi": true,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "no-debugger": true,
+    "object-literal-sort-keys": false,
+    "only-arrow-functions": [
+      false
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": {
+          "objects": "never",
+          "arrays": "never",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        }
+      }
+    ],
+    "no-namespace": [
+      false
+    ],
+    "member-access": false,
+    "curly": false,
+    "radix": false,
+    "member-ordering": [
+      false
+    ],
+    "no-focused-tests": true,
+    "no-unused-variable": true,
+    "max-line-length": [
+      true,
+      120,
+      "^import "
+    ]
+  }
+}
